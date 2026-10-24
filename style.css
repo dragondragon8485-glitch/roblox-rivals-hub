@@ -1,0 +1,121 @@
+/* Reset default browser margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and Typography */
+body {
+    background-color: #0f1115; /* Sleek charcoal black */
+    color: #e2e8f0; /* Crisp light silver text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container to keep layout centered and clean */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #161920; /* Slightly lighter card background */
+    padding: 40px;
+    border-radius: 8px;
+    border: 2px solid #ef4444; /* Neon Crimson edge border */
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.1);
+}
+
+/* Headers */
+h1 {
+    color: #ef4444; /* Crimson Red */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ef4444;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #38bdf8; /* Electric Blue accents */
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Text and Lists */
+p {
+    margin-bottom: 15px;
+    color: #94a3b8; /* Muted grey for descriptions */
+}
+
+ul {
+    list-style-type: none; /* Removes default ugly dots */
+}
+
+li {
+    background-color: #1e222b;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 4px;
+    border-left: 4px solid #38bdf8; /* Blue tag line */
+}
+
+li strong {
+    color: #fff;
+
+
+
+
+    /* Master Tier List Layout */
+.tier-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tier-group {
+    display: flex;
+    background-color: #1e222b;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #2e3440;
+}
+
+.tier-badge {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+}
+
+.tier-content {
+    flex: 1;
+    padding: 15px;
+    font-size: 0.95rem;
+}
+
+.tier-desc {
+    display: block;
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Authentic Gaming Tier Colors */
+.s-tier { background-color: #ff7f7f; }   /* Red */
+.a-tier { background-color: #ffbf7f; }   /* Orange */
+.b-tier { background-color: #ffdf7f; }   /* Yellow */
+.c-tier { background-color: #ffff7f; }   /* Pale Yellow */
+.d-tier { background-color: #ff7fff; }   /* Pinkish Purple */
+.poop-tier { background-color: #8B5A2B; font-size: 1.5rem; } /* Brown */
+
+}
